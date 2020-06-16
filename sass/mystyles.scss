@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+// Set your brand colors
+$black:        #000 !default
+$black-bis:    #101A1F !default
+$black-ter:    #192429 !default
+
+$grey-darker:  #2D383D !default
+$grey-dark:    #464F54 !default
+$grey:         #738087 !default
+$grey-light:   #A1AFB6 !default
+$grey-lighter: #D0DDE4 !default
+$grey-lightest: #DBECF4 !default
+
+$white-ter:    #E3F2FA !default
+$white-bis:    #ECF7FD !default
+$white:        #FFF !default
+
+// Optional: Set blue for links and red, yellow and green for danger-, warning- and success-states.
+// $red:          #FC8181 !default
+// $yellow:       #FAF089 !default
+// $green:        #38B2AC !default
+// $blue:         #3182CE !default
+
+
+// Update Bulma's global variables
+$primary:       $black-ter;
+$info:          $black-ter;
+$success:       $black-ter;
+$warning:       $black-ter;
+$danger:        $black-ter;
+$link:          $black-ter;
+$dark:          $black-bis;
+$text-strong:   $black-bis;
+
+
+// Update some of Bulma's component variable. Personal preference only.
+$radius-large:  4px;
+$box-shadow:    0 10px 15px -3px rgba(0, 0, 0, 0.075), 0 4px 6px -2px rgba(0, 0, 0, 0.045);
+$box-padding:   1.75rem;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
